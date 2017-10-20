@@ -10,12 +10,20 @@
     Tags:       blog,site,lucas,assuntos,gerais
     Text Domain:lucblog
 */
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
 html body{
     margin-top: 0;!important;
+    background-color: transparent;
 }
 
+main{
+    background: rgba(128, 128, 128, 0.19);
+}
 #header{
-    background-image: url("img/header.jpg");
+    background-image: url("img/header (2).jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -46,12 +54,17 @@ html body{
 
 #sidebar-right{
     float: right;
+    margin-top: 19px;
+    background-color: white;
+    padding-right: 0;!important;
+    padding-left: 0;!important;
+
 }
 #sidebar-right .widget {
     border: 1px solid #eee;
-    margin-bottom: 20px;
     overflow: hidden;
     padding: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
 }
 #sidebar-right .widget .widget-title {
     font-size: 18px;
@@ -60,5 +73,68 @@ html body{
 
 .w3-container{
     text-align: -webkit-center;
+    margin-bottom: 32px;
 
 }
+.aboutme{
+
+}
+.aboutme img a img{
+    width: 20px;
+}
+
+#title-category{
+    color: #bbb;
+}
+
+#title-category::before{
+    width: 80px;
+    height: 8px;
+    background: url(img/brixton-border-left.png) 0 1px no-repeat;
+    margin-top: 12px;
+    margin-left: -90px;
+    position: absolute;
+    content: '';
+}
+#title-category::after{
+    width: 80px;
+    height: 8px;
+    background: url(img/brixton-border-right.png) 0 1px no-repeat;
+    margin-top: 12px;
+    margin-left: 10px;
+    position: absolute;
+    content: '';
+}
+
+#title h2 a{
+    color: black;
+}
+#title h2 a:hover{
+    text-decoration: none;
+    color: #ad6c60;
+}
+.w3-panel img{
+    margin-bottom: 10px;
+}
+
+.navbar{
+    margin-bottom: 0;!important;
+}
+
+.w3-card{
+    background: white;
+}
+
+.content-text{
+
+}
+
+.w3-panel p{
+    font-family: 'Roboto Mono', monospace;
+}
+.footer{
+    background-color: grey;
+    font-family: 'Roboto Mono', monospace;
+}
+
+

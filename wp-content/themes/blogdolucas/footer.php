@@ -1,6 +1,6 @@
 <footer class="footer col-md-12">
     <div class="container text-center">
-        Blog do Lucas <?php echo date('Y');?>
+        <h3>Blog do Lucas <?php echo date('Y');?> &copy;</h3>
     </div>
 </footer>
 

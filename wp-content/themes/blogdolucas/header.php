@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Blog do Lucas</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >-->
     <!--    <link rel="stylesheet" href="--><?php //printf('%s/assets/css/bootstrap.min.css', get_template_directory_uri()); ?><!--">-->
     <?php wp_head();?>
@@ -14,9 +15,7 @@
 <header id="header">
 <div class="container">
     <div class="row">
-        <div class="home">
-            <h1>Blog do Lucas</h1>
-        </div>
+       
     </div>
 </div>
 </header>
